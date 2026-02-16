@@ -34,6 +34,20 @@ develop → Development
 ✅ New Feature Work
 git checkout develop
 git pull origin develop
+
+main and develop same code ipo user login screen pandranga ok va atha thaniya oru branch la store panikanum
+***************
+main
+  |
+  └── develop
+         |
+         └── feature/login
+         └── feature/dashboard
+
+main  → v1.0.0
+develop → v1.1.0 ongoing
+
+***************
 git checkout -b feature/login
 Work → Commit:
 git add .
