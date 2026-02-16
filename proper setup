@@ -1,0 +1,51 @@
+install git 
+git --version
+git config --global user.name "Naresh S"
+git config --global user.email "your_email@gmail.com"
+git config --list
+------------------------------
+Repository Name: gittest
+Visibility: Public
+Do NOT initialize with README (recommended for clean flow)
+https://github.com/snarendiran/gittest.git
+
+-------------------------
+
+project folder kula poitu (.gitignore,( some code folder))
+git init
+git add .
+git commit -m "Initial project setup"
+git branch -M main
+git remote add origin https://github.com/snarendiran/gittest.git
+git push -u origin main
+
+------------------------------------------
+
+
+After main push:
+✅ Create Develop Branch
+git checkout -b develop
+git push -u origin develop
+
+*****************
+main → Production
+develop → Development
+*******************
+✅ New Feature Work
+git checkout develop
+git pull origin develop
+git checkout -b feature/login
+Work → Commit:
+git add .
+git commit -m "Added login feature"
+git push -u origin feature/login
+
+----------------------------------
+just notes for version 
+Versioning System (v1.0, v1.1, v1.2)
+v1.0.0 → Initial release
+v1.1.0 → New feature
+v1.1.1 → Bug fix
+v2.0.0 → Major change
+---------------------------
+
